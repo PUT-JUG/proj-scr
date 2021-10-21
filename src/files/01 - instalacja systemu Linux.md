@@ -199,11 +199,11 @@ Poza przywracaniem masz możliwość:
 * *Clone*: utworzenia nowej maszyny na podstawie migawki
 * *Discard*: wymuszenia wyłączenia maszyny, której stan został zapisany podczas gdy była uruchomiona
 
-Pozostaw migawkę *clean install* na komputerze w laboratorium, tak aby zawsze móc wrócić do działającego systemu.
+Pozostaw migawkę *clean install* na komputerze, tak aby zawsze móc wrócić do działającego systemu.
 
 ## Poznaj nowy system!
 
-Do poleceń terminala wrócimy na kolejnych laboratoriach, a na razie - poznaj nowy system od bardziej przyjaznej, graficznej strony!
+Do poleceń terminala wrócimy w kolejnej instrukcji, a na razie - poznaj nowy system od bardziej przyjaznej, graficznej strony!
 
 Uruchom przeglądarkę plików, sprawdź jakie aplikacje i opcje są dostępne w menu. Zajrzyj do ustawień, eksperymentuj. To tylko maszyna wirtualna, którą zawsze możesz w łatwy sposób przywrócić do sprawnej migawki lub skonfigurować od zera bez obaw o system, na którym pracujesz na co dzień.
 
