@@ -62,8 +62,10 @@ Każdy użytkownik może łatwo (np. poleceniem `set`) zweryfikować, że w syst
  Zmienne systemowe nie mają typu - wszystkie przechowywane są jako napis (ciąg znaków), niezależnie od zawartości.
  
  ## Zadania do samodzielnego wykonania
-** 1.** Zdefiniuj zmienną `IMIE` i przypisz jej swoje imię. Wyświetl zawartość tej zmiennej. Wyeksportuj tą zmienną i sprawdź, czy jest dostępna w nowym (potomnym) interpreterze.
+**1.** Zdefiniuj zmienną `IMIE` i przypisz jej swoje imię. Wyświetl zawartość tej zmiennej. Wyeksportuj tą zmienną i sprawdź, czy jest dostępna w nowym (potomnym) interpreterze.
+
  **2.** Wyświetl listę zmiennych eksportowanych.
+ 
  **3.** Zmień własny znak zachęty, modyfikując zmienną `PS1`.
   
 ## Skrypty i ich argumenty
@@ -376,8 +378,11 @@ Często ma miejsce sytuacja, kiedy niepowodzenie jakiegokolwiek z poleceń (np. 
 
 ## Zadania do samodzielnego wykonania
 **4.** Napisz skrypt, który dla każdego elementu (pliku, folderu) w bieżącym katalogu wyświetli jego nazwę wraz z informacją czy jest to plik czy katalog.
+
 **5.** Napisz skrypt, który dla każdego z plików podanych jako argumenty wywołania wyświetli nazwę pliku, a następnie jego zawartość posortowaną alfabetycznie.
+
 **6.** Napisz skrypt, który będzie kopiował plik podany jako pierwszy argument do wszystkich katalogów podanych jako kolejne argumenty wywołania.
+
 **7.** Napisz skrypt, który wykona kopię zapasową plików podanych jako argumenty, do katalogu `backup` i dopisze do ich nazwy bieżącą datę:
 
 Przykładowo:
@@ -404,7 +409,8 @@ Podpowiedź: bieżącą datę możesz uzyskać poleceniem `date '+%Y-%m-%d'`
 **11.** Utwórz skrypt i umieść w nim dwie funkcje: jedną zliczającą pliki a drugą zliczającą katalogi (w katalogu podanym jako argument). Zdefiniuj również funkcję realizującą sumę dwóch argumentów (liczb). Posługując się wszystkimi trzema funkcjami wyświetl łączną liczbę plików i katalogów w aktualnym katalogu (w którym uruchamiany jest skrypt).
 
 ***
-Autor: *Adam Bondyra*, *Jakub Tomczyński*\
+Autor: *Adam Bondyra*, *Jakub Tomczyński*
+
 Edytowane przez: *Bartłomiej Kulecki*
 
 
