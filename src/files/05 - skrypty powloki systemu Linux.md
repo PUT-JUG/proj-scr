@@ -62,11 +62,9 @@ Każdy użytkownik może łatwo (np. poleceniem `set`) zweryfikować, że w syst
  Zmienne systemowe nie mają typu - wszystkie przechowywane są jako napis (ciąg znaków), niezależnie od zawartości.
  
  ## Zadania do samodzielnego wykonania
-**1.** Zdefiniuj zmienną `IMIE` i przypisz jej swoje imię. Wyświetl zawartość tej zmiennej. Wyeksportuj tą zmienną i sprawdź, czy jest dostępna w nowym (potomnym) interpreterze.
-
- **2.** Wyświetl listę zmiennych eksportowanych.
- 
- **3.** Zmień własny znak zachęty, modyfikując zmienną `PS1`.
+1. Zdefiniuj zmienną `IMIE` i przypisz jej swoje imię. Wyświetl zawartość tej zmiennej. Wyeksportuj tą zmienną i sprawdź, czy jest dostępna w nowym (potomnym) interpreterze.
+2. Wyświetl listę zmiennych eksportowanych.
+3. Zmień własny znak zachęty, modyfikując zmienną `PS1`.
   
 ## Skrypty i ich argumenty
 Współczesne powłoki pozwalają także na tworzenie konstrukcji programistycznych takich jak instrukcje warunkowe czy pętle. Ponieważ kolejne ciągi poleceń możemy umieścić w pliku tekstowym, a następnie taki plik uruchomić w powłoce - w połączeniu ze zmiennymi środowiskowymi uzyskujemy możliwość pisania programów (skryptów) w języku `bash`.
@@ -377,13 +375,10 @@ bash -x nazwa_skryptu.sh
 Często ma miejsce sytuacja, kiedy niepowodzenie jakiegokolwiek z poleceń (np. utworzenie katalogu roboczego) powoduje, że dalsze operacje nie mają sensu. Przydatną opcją powłoki jest wtedy przełącznik `-e`, który powoduje, że powłoka (np. wykonująca skrypt) zostanie przerwana, w momencie kiedy którykolwiek z użytych w niej programów (poza warunkami w instrukcjach warunkowych/pętlach) zwróci błąd. Ustawienie przełącznika `-e` może odbyć się na sposoby analogiczne do opisanych powyżej. 
 
 ## Zadania do samodzielnego wykonania
-**4.** Napisz skrypt, który dla każdego elementu (pliku, folderu) w bieżącym katalogu wyświetli jego nazwę wraz z informacją czy jest to plik czy katalog.
-
-**5.** Napisz skrypt, który dla każdego z plików podanych jako argumenty wywołania wyświetli nazwę pliku, a następnie jego zawartość posortowaną alfabetycznie.
-
-**6.** Napisz skrypt, który będzie kopiował plik podany jako pierwszy argument do wszystkich katalogów podanych jako kolejne argumenty wywołania.
-
-**7.** Napisz skrypt, który wykona kopię zapasową plików podanych jako argumenty, do katalogu `backup` i dopisze do ich nazwy bieżącą datę:
+4. Napisz skrypt, który dla każdego elementu (pliku, folderu) w bieżącym katalogu wyświetli jego nazwę wraz z informacją czy jest to plik czy katalog.
+5. Napisz skrypt, który dla każdego z plików podanych jako argumenty wywołania wyświetli nazwę pliku, a następnie jego zawartość posortowaną alfabetycznie.
+6. Napisz skrypt, który będzie kopiował plik podany jako pierwszy argument do wszystkich katalogów podanych jako kolejne argumenty wywołania.
+7. Napisz skrypt, który wykona kopię zapasową plików podanych jako argumenty, do katalogu `backup` i dopisze do ich nazwy bieżącą datę:
 
 Przykładowo:
 ```bash
@@ -400,13 +395,10 @@ Jeśli plik docelowy już istnieje, program powinien wyświetlić stosowny komun
 
 Podpowiedź: bieżącą datę możesz uzyskać poleceniem `date '+%Y-%m-%d'`
 
-**8.** Zmodyfikuj skrypt z zadania 7 tak, aby argumentem skryptu była nazwa pliku zawierającego (po jednym na linię) nazwy plików do zarchiwizowania.
 
-**9.** Napisz skrypt, który jako argument będzie przyjmował ścieżkę do katalogu, który ma zostać zarchiwizowany. Wykorzystaj polecenie `tar`, aby utworzyć plik z rozszerzeniem `tar.gz` zawierający backup podanego katalogu (w nazwie pliku umieść aktualną datę i godzinę).
+8. Napisz skrypt, który będzie oczekiwał na pojawienie się pliku o nazwie wskazanej w argumencie. Skrypt powinien cyklicznie (co 5 sekund) sprawdzać istnienie pliku. Jeśli plik istnieje, skrypt powinien wyświetlić jego zawartość i zakończyć się. Uruchom skrypt, a z poziomu drugiego terminala utwórz monitorowany plik.
 
-**10.** Napisz skrypt, który będzie oczekiwał na pojawienie się pliku o nazwie wskazanej w argumencie. Skrypt powinien cyklicznie (co 5 sekund) sprawdzać istnienie pliku. Jeśli plik istnieje, skrypt powinien wyświetlić jego zawartość i zakończyć się. Uruchom skrypt, a z poziomu drugiego terminala utwórz monitorowany plik.
-
-**11.** Utwórz skrypt i umieść w nim dwie funkcje: jedną zliczającą pliki a drugą zliczającą katalogi (w katalogu podanym jako argument). Zdefiniuj również funkcję realizującą sumę dwóch argumentów (liczb). Posługując się wszystkimi trzema funkcjami wyświetl łączną liczbę plików i katalogów w aktualnym katalogu (w którym uruchamiany jest skrypt).
+9. Utwórz skrypt i umieść w nim funkcję realizującą sumę dwóch argumentów (liczb) podawanych do skryptu.
 
 ***
 Autor: *Adam Bondyra*, *Jakub Tomczyński*
