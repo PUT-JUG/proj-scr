@@ -82,7 +82,7 @@ cat plik1.txt plik2.txt> plik3.txt 2>&1
 Wiele programów konsolowych działających na strumieniach może przyjąć również nazwę pliku jako wejście: polecenie `cat < plik.txt` wygeneruje taki sam efekt jak `cat plik.txt`, a w przypadku skomplikowanego potoku wersja druga może okazać się znacząco czytelniejsza. Dodatkowo, wiele programów akceptuje przekazanie `-` jako nazwy pliku, co w zależności od kontekstu oznacza wejście lub wyjście standardowe.
 
 ## Przetwarzanie potokowe
-Standardowe wyjście jednego procesu możne być połączone ze standardowym wejściowym innego procesu, tworząc tzw. potok pomiędzy tymi procesami.
+Standardowe wyjście jednego procesu może być połączone ze standardowym wejściem innego procesu, tworząc tzw. potok pomiędzy tymi procesami.
 
 ![Standardowe wejscie-wyjście procesu](../images/lab_04_stream.png)
 
