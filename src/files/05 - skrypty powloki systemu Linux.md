@@ -187,7 +187,7 @@ Pętla `while` pozawala na realizację pętli, dla których ilość iteracji nie
 ```bash
 while warunek
 do
-   instrukcje do wykonania
+   instrukcje_do_wykonania
 done
 ```
 
