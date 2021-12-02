@@ -156,7 +156,7 @@ Skrypty powłoki mogą także zawierać pętle - podstawowe dwie z nich to pętl
 ```bash
 for zmienna in lista
 do
-    instrukcje do wykonania
+    instrukcje_do_wykonania
 done
 ```
 
@@ -314,12 +314,6 @@ Umieszczenie tekstu w *grawisie* (`` ` ``) powoduje **uruchomienie** zawartego w
 CURRENT_DIR=`pwd`
 ```
 
-Bash oferuje również prostą arytmetykę na liczbach całkowitych. Kontekst arytmetyczny wywołujemy umieszczając formułę pomiędzy `$((` a `))`:
-
-```bash
-a=3
-b=$((a+5))
-```
 ## Funkcje
 W skryptach bash możemy również definiować funkcje, które pozwalają na uproszczenie kodu. Przykład prostej funkcji oraz jej wywołania pokazano poniżej:
 
