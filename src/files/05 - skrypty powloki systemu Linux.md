@@ -6,7 +6,7 @@ Powłoka systemowa (ang. *shell*) to program komputerowy pełniący rolę pośre
 
 Podczas poprzednich zajęć, za każdym razem kiedy otwieraliśmy emulator terminala, uruchamiana została nowa instancja powłoki naszego użytkownika - program `bash`. Część poleceń to tzw. polecenia wbudowane (bezpośrednio w powłokę) - np. `cd`, `pwd`, inne to zupełnie oddzielne programy, które `bash` wywoływał - np. `ls`, `chmod` itd.
 
-*Zmienne środowiskowe* to bardzo wygodny i uniwersalny sposób konfigurowania i parametryzowania powłok systemowych i - za ich pomocą - także innych programów. Dostępne zmienne środowiskowe tworzą tzw. *środowisko wykonania procesu* - środowisko to jest kopiowane do wszystkich nowych procesów, a więc modyfikacje zmiennych wykonane w powłoce są widoczne we wszystkich programach uruchomionych przy użyciu tej powłoki. Każdy użytkownik może definiować dowolną ilość własnych zmiennych oraz przypisywać im dowolne wartości. Aby zdefiniować zmienną środowiskową należy zastosować operator przypisania (znak "=") w następujący sposób:
+*Zmienne środowiskowe* to bardzo wygodny i uniwersalny sposób konfigurowania i parametryzowania powłok systemowych i - za ich pomocą - także innych programów. Dostępne zmienne środowiskowe tworzą tzw. *środowisko wykonania procesu* - środowisko to jest kopiowane do wszystkich nowych procesów, a więc modyfikacje zmiennych wykonane w powłoce są widoczne we wszystkich programach uruchomionych przy użyciu tej powłoki. Każdy użytkownik może definiować dowolną ilość własnych zmiennych oraz przypisywać im dowolne wartości. Aby zdefiniować zmienną środowiskową, należy zastosować operator przypisania (znak "=") w następujący sposób:
 
 ```bash
 ZMIENNA=wartosc
@@ -146,8 +146,10 @@ Po znaku `[` i przed znakiem `]` konieczne jest wprowadzenie znaku spacji. Możl
 | `-r nazwa`    |     	Weryfikacja, czy użytkownik ma prawo odczytu dla pliku o podanej nazwie     |
 | `-w nazwa`    |     	Weryfikacja, czy użytkownik ma prawo zapisu dla pliku o podanej nazwie     |
 | `-x nazwa`    |     	Weryfikacja, czy użytkownik ma prawo wykonywania dla pliku o podanej nazwie     |
-| `warunek1 -a warunek2`     |     	Iloczyn logiczny warunków     |
+| `warunek1 -a warunek2`   |     	Iloczyn logiczny warunków     |
+| `warunek1 && warunek2`   |     	Iloczyn logiczny warunków     |
 | `warunek1 -o warunek2`    |     	Suma logiczna warunków     |
+| `warunek1 \|\| warunek2`    |     	Suma logiczna warunków     |
 | `! warunek1`     |     	Negacja warunku     |
 
 ## Pętle
@@ -335,7 +337,7 @@ files=$(total_files $katalog)
 ```
 
 ## Operacje matematyczne
-Na wykonywanie operacji matematycznych w skryptach bash jest kilka sposobów. Pierwszy to wykorzystanie podwójnych nawiasów:
+W skryptach bash można wykonywać operacje matematyczne na zmiennych całkowitoliczbowych. Jest na to kilka sposobów. Pierwszy to wykorzystanie podwójnych nawiasów:
 ```bash
 wynik=$((5+8))
 ```
@@ -395,9 +397,8 @@ Podpowiedź: bieżącą datę możesz uzyskać poleceniem `date '+%Y-%m-%d'`
 9. Utwórz skrypt i umieść w nim funkcję realizującą sumę dwóch argumentów (liczb) podawanych do skryptu.
 
 ***
-Autor: *Adam Bondyra*, *Jakub Tomczyński*
-
-Edytowane przez: *Bartłomiej Kulecki*
+Autorzy: \
+*Adam Bondyra*, *Jakub Tomczyński*, *Bartłomiej Kulecki*
 
 
 Opracowano na podstawie materiałów projektu *Otwartych Studiów Informatycznych (http://wazniak.mimuw.edu.pl/*).

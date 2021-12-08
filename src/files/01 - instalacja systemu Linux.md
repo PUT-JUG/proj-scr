@@ -208,5 +208,5 @@ Do poleceń terminala wrócimy w kolejnej instrukcji, a na razie - poznaj nowy s
 Uruchom przeglądarkę plików, sprawdź jakie aplikacje i opcje są dostępne w menu. Zajrzyj do ustawień, eksperymentuj. To tylko maszyna wirtualna, którą zawsze możesz w łatwy sposób przywrócić do sprawnej migawki lub skonfigurować od zera bez obaw o system, na którym pracujesz na co dzień.
 
 ***
-Autor: *Jakub Tomczyński*\
-Edytowane przez: *Bartłomiej Kulecki*
+Autorzy: \
+*Jakub Tomczyński*, *Bartłomiej Kulecki*
