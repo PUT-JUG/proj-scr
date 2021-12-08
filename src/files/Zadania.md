@@ -1,12 +1,12 @@
 # Zadania zaliczeniowe
 
-**1.** Napisz skrypt, który znajdzie w katalogu podanym jako argument do skryptu wszystkie pliki z rozszerzeniem *sh*, modyfikowane nie dawniej niż 7 dni temu, nada im prawo do wykonywania i wyświetli ich nazwy.
+**1.** &ensp; Napisz skrypt, który znajdzie w katalogu podanym jako argument do skryptu wszystkie pliki z rozszerzeniem *sh*, modyfikowane nie dawniej niż 7 dni temu, nada im prawo do wykonywania i wyświetli ich nazwy.
 ___
 
-**2.** Napisz skrypt, który na podstawie pliku wejściowego wskazanego pierwszym argumentem wyświetli nazwy trzech planet o największej liczbie księżycy, w kolejności alfabetycznej. Przykładowy plik wejściowy: [planets.txt](../resources/planets.txt).
+**2.** &ensp; Napisz skrypt, który na podstawie pliku wejściowego wskazanego pierwszym argumentem wyświetli nazwy trzech planet o największej liczbie księżycy, w kolejności alfabetycznej. Przykładowy plik wejściowy: [planets.txt](../resources/planets.txt).
 ___
 
-**3.** Napisz skrypt, który sklei zawartość wszystkich plików przekazanych jako argumenty i wypisze w konsoli zgodnie z następującym przykładem:
+**3.** &ensp; Napisz skrypt, który sklei zawartość wszystkich plików przekazanych jako argumenty i wypisze w konsoli zgodnie z następującym przykładem:
 
 
 *Zawartość plik1.txt*:
@@ -34,23 +34,23 @@ inny_plik.txt: 456
 ```
 ___
 
-**4.** Napisz skrypt, który zliczy i wypisze sumę znaków dla każdego z plików podanych jako argumenty wywołania. Wypisz również sumę znaków ze wszystkich plików łącznie.
+**4.** &ensp; Napisz skrypt, który zliczy i wypisze sumę znaków dla każdego z plików podanych jako argumenty wywołania. Wypisz również sumę znaków ze wszystkich plików łącznie.
 ___
 
-**5.** Napisz skrypt, który utworzy w katalogu domowym folder *pictures_backup* i skopiuje do niego wszystkie pliki z rozszerzeniem *jpg* znajdujące się w bieżącym katalogu, a następnie zmieni nowym plikom prawa dostępu na tylko do odczytu.
+**5.** &ensp; Napisz skrypt, który utworzy w katalogu domowym folder *pictures_backup* i skopiuje do niego wszystkie pliki z rozszerzeniem *jpg* znajdujące się w bieżącym katalogu, a następnie zmieni nowym plikom prawa dostępu na tylko do odczytu.
 ___
 
-**6.** Napisz skrypt, który przydzieli plikom odpowiednie prawa dostępu na podstawie par argumentów *plik* - *prawa dostępu w notacji numerycznej*. Przykładowo:
+**6.** &ensp; Napisz skrypt, który przydzieli plikom odpowiednie prawa dostępu na podstawie par argumentów *plik* - *prawa dostępu w notacji numerycznej*. Przykładowo:
 
 ```bash
 ./task_6.sh plik1.txt 467 plik2.txt 777 plik3.txt 577
 ```
 ___
 
-**7.** Napisz skrypt, który dopisze tekst określony jako pierwszy argument wywołania na końcu wszystkich plików z rozszerzeniem zdefiniowanym jako drugi argument i znajdujących się w bieżącym katalogu.
+**7.** &ensp; Napisz skrypt, który dopisze tekst określony jako pierwszy argument wywołania na końcu wszystkich plików z rozszerzeniem zdefiniowanym jako drugi argument i znajdujących się w bieżącym katalogu.
 ___
 
-**8.** Napisz skrypt, który zsumuje wielkości plików w bieżącym katalogu dla każdego rozszerzenia podanego jako argument.
+**8.** &ensp; Napisz skrypt, który zsumuje wielkości plików w bieżącym katalogu dla każdego rozszerzenia podanego jako argument.
 Przykładowo:
 
 ```bash
@@ -61,27 +61,27 @@ rar: 0
 ```
 ___
 
-**9.** Napisz skrypt, który jako argument przyjmuje nazwę pliku zawierającego (po jednym na linię) nazwy plików do zarchiwizowania. Niech skrypt wykona kopię zapasową tych plików, do katalogu *backup* i dopisze do ich nazwy bieżącą datę. 
+**9.** &ensp; Napisz skrypt, który jako argument przyjmuje nazwę pliku zawierającego (po jednym na linię) nazwy plików do zarchiwizowania. Niech skrypt wykona kopię zapasową tych plików, do katalogu *backup* i dopisze do ich nazwy bieżącą datę. 
 ___
 
-**10.** Napisz skrypt, który jako argument będzie przyjmował ścieżkę do katalogu, który ma zostać zarchiwizowany. Wykorzystaj polecenie `tar`, aby utworzyć plik z rozszerzeniem `tar.gz` zawierający backup podanego katalogu (w nazwie pliku umieść aktualną datę i godzinę).
+**10.** &ensp; Napisz skrypt, który jako argument będzie przyjmował ścieżkę do katalogu, który ma zostać zarchiwizowany. Wykorzystaj polecenie `tar`, aby utworzyć plik z rozszerzeniem `tar.gz` zawierający backup podanego katalogu (w nazwie pliku umieść aktualną datę i godzinę).
 ___
 
-**11.** Napisz skrypt, który wyświetli pierwszą linię od końca z pliku podanego jako pierwszy argument, drugą linię od końca z pliku podanego jako drugi argument itd.
+**11.** &ensp; Napisz skrypt, który wyświetli pierwszą linię od końca z pliku podanego jako pierwszy argument, drugą linię od końca z pliku podanego jako drugi argument itd.
 > *Wersja rozszerzona:*\
 > Jeżeli dany plik jest zbyt krótki, wyświetl stosowny komunikat.
 ___
 
-**12.** Napisz skrypt, który w pętli wczytuje z klawiatury numer (PID) procesu, numer sygnału a następnie wysyła wskazany sygnał do określonego procesu. Wpisanie słowa `EXIT` kończy pracę skryptu.
+**12.** &ensp; Napisz skrypt, który w pętli wczytuje z klawiatury numer (PID) procesu, numer sygnału a następnie wysyła wskazany sygnał do określonego procesu. Wpisanie słowa `EXIT` kończy pracę skryptu.
 ___
 
-**13.** Utwórz skrypt i umieść w nim dwie funkcje: jedną zliczającą pliki a drugą zliczającą katalogi (w katalogu podanym jako argument). Zdefiniuj również funkcję realizującą sumę dwóch argumentów (liczb). Posługując się wszystkimi trzema funkcjami wyświetl łączną liczbę plików i katalogów w aktualnym katalogu (w którym uruchamiany jest skrypt).
+**13.** &ensp; Utwórz skrypt i umieść w nim dwie funkcje: jedną zliczającą pliki a drugą zliczającą katalogi (w katalogu podanym jako argument). Zdefiniuj również funkcję realizującą sumę dwóch argumentów (liczb). Posługując się wszystkimi trzema funkcjami wyświetl łączną liczbę plików i katalogów w aktualnym katalogu (w którym uruchamiany jest skrypt).
 ___
 
-**14.** Napisz skrypt, który będzie wykonywał podane operacje matematyczne. Jako argument podaj dwie liczby oraz rodzaj operacji (sum, sub, mul, div), w kolejności: liczba operacja liczba. Wykorzystaj funkcje.
+**14.** &ensp; Napisz skrypt, który będzie wykonywał podane operacje matematyczne. Jako argument podaj dwie liczby oraz rodzaj operacji (sum, sub, mul, div), w kolejności: liczba operacja liczba. Wykorzystaj funkcje.
 ___
 
-**15. (dla chętnych)** Napisz skrypt, który będzie pełnił rolę fizycznego przycisku do włączania/wyłączania kamery internetowej laptopa. Jeśli kamera jest dostępna to po uruchomieniu skryptu powinna zostać zablokowana. Jeśli jest zablokowana to po uruchomieniu skryptu powinna być dostępna. Każde uruchomienie skryptu ma przełączać kamerę między ON a OFF i pokazywać stosowną informację o jej aktualnym stanie.
+**15. (dla chętnych)** &ensp; Napisz skrypt, który będzie pełnił rolę fizycznego przycisku do włączania/wyłączania kamery internetowej laptopa. Jeśli kamera jest dostępna to po uruchomieniu skryptu powinna zostać zablokowana. Jeśli jest zablokowana to po uruchomieniu skryptu powinna być dostępna. Każde uruchomienie skryptu ma przełączać kamerę między ON a OFF i pokazywać stosowną informację o jej aktualnym stanie.
 > Aby wykonać to zadanie konieczna jest instalacja extenstion pack dla VirtualBoxa (o czym napisano w pierwszej instrukcji). \
 > Następnie w VB należy wejść w ustawienia -> USB -> Wybrać kontroler USB 3.0 i przyciskiem z plusem po prawej stronie dodać swoje urządzenie webcam.\
 > Po uruchomieniu Linuxa zainstaluj w nim program Cheese, aby sprawdzić działanie kamery: \
