@@ -80,8 +80,10 @@ ___
 
 **14.** &ensp; Napisz skrypt, który będzie wykonywał podane operacje matematyczne. Jako argument podaj dwie liczby oraz rodzaj operacji (sum, sub, mul, div), w kolejności: liczba operacja liczba. Wykorzystaj funkcje.
 ___
+**15.** &ensp; Napisz skrypt, który jako argument będzie przyjmował numer wyrazu z ciągu Fibonacciego. W skrypcie dodaj funkcję, która korzystając z **rekurencji** obliczy podany wyraz ciągu. Wyświetl obliczoną wartość w terminalu.
+___
 
-**15. (dla chętnych)** &ensp; Napisz skrypt, który będzie pełnił rolę fizycznego przycisku do włączania/wyłączania kamery internetowej laptopa. Jeśli kamera jest dostępna to po uruchomieniu skryptu powinna zostać zablokowana. Jeśli jest zablokowana to po uruchomieniu skryptu powinna być dostępna. Każde uruchomienie skryptu ma przełączać kamerę między ON a OFF i pokazywać stosowną informację o jej aktualnym stanie.
+**16. (dla chętnych)** &ensp; Napisz skrypt, który będzie pełnił rolę fizycznego przycisku do włączania/wyłączania kamery internetowej laptopa. Jeśli kamera jest dostępna to po uruchomieniu skryptu powinna zostać zablokowana. Jeśli jest zablokowana to po uruchomieniu skryptu powinna być dostępna. Każde uruchomienie skryptu ma przełączać kamerę między ON a OFF i pokazywać stosowną informację o jej aktualnym stanie.
 > Aby wykonać to zadanie konieczna jest instalacja extenstion pack dla VirtualBoxa (o czym napisano w pierwszej instrukcji). \
 > Następnie w VB należy wejść w ustawienia -> USB -> Wybrać kontroler USB 3.0 i przyciskiem z plusem po prawej stronie dodać swoje urządzenie webcam.\
 > Po uruchomieniu Linuxa zainstaluj w nim program Cheese, aby sprawdzić działanie kamery: \
