@@ -80,7 +80,7 @@ ___
 
 **14.** &ensp; Napisz skrypt, który będzie wykonywał podane operacje matematyczne. Jako argument podaj dwie liczby oraz rodzaj operacji (sum, sub, mul, div), w kolejności: liczba operacja liczba. Wykorzystaj funkcje.
 ___
-**15.** &ensp; Napisz skrypt, który jako argument będzie przyjmował numer wyrazu z ciągu Fibonacciego. W skrypcie dodaj funkcję, która korzystając z **rekurencji** obliczy podany wyraz ciągu. Wyświetl obliczoną wartość w terminalu.
+**15.** &ensp; Napisz skrypt, który zapyta użytkownika o numer (indeks) wyrazu z ciągu Fibonacciego i zapisze tą wartość do zmiennej. W skrypcie dodaj funkcję, która korzystając z **rekurencji** obliczy podany wyraz ciągu. Wyświetl obliczoną wartość w terminalu.
 ___
 
 **16. (dla chętnych)** &ensp; Napisz skrypt, który będzie pełnił rolę fizycznego przycisku do włączania/wyłączania kamery internetowej laptopa. Jeśli kamera jest dostępna to po uruchomieniu skryptu powinna zostać zablokowana. Jeśli jest zablokowana to po uruchomieniu skryptu powinna być dostępna. Każde uruchomienie skryptu ma przełączać kamerę między ON a OFF i pokazywać stosowną informację o jej aktualnym stanie.
